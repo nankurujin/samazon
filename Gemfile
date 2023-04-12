@@ -45,13 +45,16 @@ gem 'jquery-rails'
 gem 'dotenv-rails'
 
 # socialiizatioinを使用できる
-  gem 'socialization'
+gem 'socialization'
   
 # ページネーションを実装できる
-  gem 'kaminari'
+gem 'kaminari'
   
 # それらしい値を自動生成できる
-   gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :tag => 'v2.19.0'
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :tag => 'v2.19.0'
+   
+# ショッピングカートを実装できる
+gem 'acts_as_shopping_cart'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
